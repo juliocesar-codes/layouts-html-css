@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    display: flex;
+}
+h1{
+    font-weight: 20%;
+}
+
+main{
+    flex-grow: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50vw;
+    background-color: green;
+}
+
+
+footer{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    display: flex;
+}
+
